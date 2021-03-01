@@ -45,7 +45,6 @@ Switches.warmUpCompute.on   =1;     % Add warm up before modelling
 Switches.verb.on            =1;     % Verbose. Display information about computing
 Switches.exportLight.on     =1;     % Export fewer data(/results) to save space
 Switches.overWrite.on       =1;     % Overwrite existing files created by HOOPLA
-Switches.parallelCompute.on =0;     % Parallel computing
 
 % Calibration switches
 Switches.calibration.export.on = 1;    % Export calibrated parameters to ./Data for future Simulation/Forecast once calibration is performed
@@ -53,7 +52,7 @@ Switches.calibration.snowCal.on = 0;   % Calibrate snow module (if 0, default va
 Switches.calibration.method ='SCE';    % Choose between 'DDS' and 'SCE'
 Switches.calibration.rmWinter.on = 1;  % Remove the Quebec "ice months" (dec, jan, fev, mar)
 Switches.calibration.score ='NSE';     % Performance criteron (RMSE,MSE,NSE,etc. Enter "help det_score" in terminal to see all available scores)
-Switches.calibration.maxiter = 50;    % Maximum number of itération during calibration
+Switches.calibration.maxiter = 50;    % Maximum number of itï¿½ration during calibration
 Switches.calibration.SCE.ngs = 50;     % Number of Complexes for the SCE optimization
 
 % Forecast switches
